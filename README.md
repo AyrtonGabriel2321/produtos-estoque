@@ -1,24 +1,32 @@
 # Produtos Estoque
 
 ## Descrição
-Projeto simples em Java que gerencia informações de notebooks, incluindo memória RAM, processador, armazenamento e outras especificações. Ideal para aprendizado de POO (Programação Orientada a Objetos) e encapsulamento.
+Projeto em Java que simula um sistema de gerenciamento de estoque para um produto. O programa permite registrar um produto, calcular seu valor total em estoque e realizar operações de adição e remoção de itens.
 
 ## Estrutura do Código
-- `Produto.java` → Classe que representa um notebook.
-- `Main.java` → Classe principal que interage com o usuário.
+Product2.java → Classe que representa um produto.
+Program2.java → Classe principal que interage com o usuário.
 - `README.md` → Este arquivo com instruções sobre o projeto.
 
 ## Exemplo de Execução
 ```bash
-Digite as informações do notebook 1:
-Memória RAM: 8GB
-Processador: Intel i5
-Armazenamento: 256GB SSD
+Enter product data:
+Name : TV
+Price: 900.00
 
-Informações cadastradas:
-Notebook 1: 8GB RAM, Intel i5, 256GB SSD
-Tecnologias Utilizadas
+Product data: TV, $ 900.00, 0 units ,total $ 0.00
 
+Enter the number of products to be add in stock
+10
+
+Updated data: TV, $ 900.00, 10 units ,total $ 9000.00
+
+Enter the number of products to be removed in stock
+2
+
+Updated data: TV, $ 900.00, 8 units ,total $ 7200.00
+
+S
 Java
 IDE-Eclipse
 
