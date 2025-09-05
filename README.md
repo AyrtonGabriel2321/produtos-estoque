@@ -26,7 +26,7 @@ Enter the number of products to be removed in stock
 
 Updated data: TV, $ 900.00, 8 units ,total $ 7200.00
 
-S
+
 Java
 IDE-Eclipse
 
